@@ -49,10 +49,13 @@ h1 {
 }
 input {
 	border: 0.125rem solid var(--white);
-	border-radius: 0.3125rem;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
 	outline: 0;
 	transition-duration: 0.15s;
-	padding: 0.9375rem 1.875rem;
+	padding: 15px;
+	font-weight: 700;
 }
 input:focus {
 	box-shadow:
